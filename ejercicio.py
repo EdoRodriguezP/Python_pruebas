@@ -1,4 +1,5 @@
 import math as m
+import pandas as pd
 
 """
 resultado = "gato" * 3
@@ -63,13 +64,14 @@ area = (m.sqrt(3)/4) * (lado ** 2)
 
 print(f"area del triangulo es :{area:.1f}")
 
-"""
+
 
 R = float(input("rm :"))
 r = float(input("rme :"))
 
 area = m.pi * (R**2 - r**2)
 
-print(f"el area es : {area}")
+print(f"el area es : {area:.2f}")
+"""
 
-
+df = pd.read_csv()

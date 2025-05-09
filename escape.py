@@ -8,4 +8,4 @@ v = 2*g*r_metros
 vel_escape = m.sqrt(v)
 
 
-print(f"La Velocidad de escape es : {vel_escape:.2f} [m/s]")
+print(f"La Velocidad de escape es : {vel_escape:.1f} [m/s]")
