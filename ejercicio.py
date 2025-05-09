@@ -1,3 +1,4 @@
+import math as m
 
 """
 resultado = "gato" * 3
@@ -53,6 +54,22 @@ nota3  = float(input("nota 3 :"))
 nota_final = (nota1 + nota2 + nota3) / 3
 
 print(f"nota final : {nota_final:.1f}")
+
+
+# area de un triangulo equilatero
+
+lado = float(input("longitud del lado del triangulo? : "))
+area = (m.sqrt(3)/4) * (lado ** 2)
+
+print(f"area del triangulo es :{area:.1f}")
+
 """
+
+R = float(input("rm :"))
+r = float(input("rme :"))
+
+area = m.pi * (R**2 - r**2)
+
+print(f"el area es : {area}")
 
 
