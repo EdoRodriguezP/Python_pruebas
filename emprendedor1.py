@@ -6,4 +6,4 @@ gt = float(input("Ingrsa el gasto total : "))
 
 utilidades = p * u - gt
 
-print(f"la utilidad es : {utilidades}")
+print(f"La utilidad obtenida es : {utilidades}")

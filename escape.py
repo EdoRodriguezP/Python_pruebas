@@ -1,7 +1,7 @@
 import math as m
 
-r_km = float(input("ingrese el radio en Kilomnetros :"))
-g = float(input("ingrese la constante g :"))
+r_km = float(input("Ingrese el radio en Kilomnetros :"))
+g = float(input("Ingrese la constante g :"))
 r_metros = r_km * 1000
 
 v = 2*g*r_metros

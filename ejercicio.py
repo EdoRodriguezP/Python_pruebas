@@ -71,7 +71,7 @@ r = float(input("rme :"))
 
 area = m.pi * (R**2 - r**2)
 
-print(f"el area es : {area:.2f}")
+
 """
 
 df = pd.read_csv()
