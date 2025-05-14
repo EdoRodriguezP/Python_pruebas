@@ -1,4 +1,5 @@
 
+
 arr = [1,1,0,-1,-1]
 
 def plusMinus(arr):
@@ -8,18 +9,21 @@ def plusMinus(arr):
     n = 0
     
     for number in arr:
-        n +=1
+        n = n + 1
         if (number > 0):
-            positivos += 1
+            positivos = positivos + 1
         elif (number < 0):
-            negativos += 1
+            negativos = negativos + 1
         else:
-            zeros += 1
+            zeros = zeros + 1
             
     positivos_ratio = round(positivos / n, 6)
     negativos_ratio = round(negativos / n, 6)
     zeros_ratio = round(zeros / n, 6)
     
+    print(f"porcentaje positivos :{positivos_ratio:.6f}")
     print(positivos_ratio)
     print(negativos_ratio)
-    print(zeros_ratio)
+    print(arr)
+    
+    print(f"La utilidad obtenida es : {positivos_ratio}")
