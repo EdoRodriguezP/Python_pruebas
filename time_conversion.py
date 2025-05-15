@@ -16,7 +16,7 @@ def timeConversion(s):
         else:
             result = str(int(myList[0])+12)
             
-            print(f"{result = result + ":"+ myList[1] + ":" + myList[2]}")
+            result = result + ":"+ myList[1] + ":" + myList[2]
             return result
     
     
