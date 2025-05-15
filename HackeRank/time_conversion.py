@@ -19,8 +19,6 @@ def timeConversion(s):
             result = result + ":"+ myList[1] + ":" + myList[2]
             return result
     
-print(f"{return}")
-
 def convert2list (myString):
     # input = hh:mm:ssAM/PM
     #         0123456789
