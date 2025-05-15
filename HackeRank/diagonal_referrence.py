@@ -8,7 +8,9 @@ arr = [
 
 sum_diag_der_izq = 0
 sum_diag_izq_der = 0
+
 for i in range(len(arr)):
+    
     sum_diag_der_izq += arr[i][i]
     sum_diag_izq_der += arr[i][(len(arr)-1)-i]
     
