@@ -1,7 +1,7 @@
 import sys
 import os
 
-myString = "09:00:00AM"
+myList = "09:00:00AM"
 
 def timeConversion(s):
     result = " "
@@ -19,7 +19,8 @@ def timeConversion(s):
             result = result + ":"+ myList[1] + ":" + myList[2]
             return result
     
-    
+print(f"{return}")
+
 def convert2list (myString):
     # input = hh:mm:ssAM/PM
     #         0123456789
