@@ -1,14 +1,26 @@
-import sys
 
+
+precios = {'Notebook': 700000,
+'Teclado': 25000,
+'Mouse': 12000,
+'Monitor': 250000,
+'Escritorio': 135000,
+'Tarjeta de Video': 1500000}
+
+
+def filtro(productos:dict[str,int],umbral:int, modo:str = "mayor"):
+    if modo == "mayor":
+        for k, v in productos.items():
+            print(k,v)
+        
+'''
 def validar_argumentos():
-    """Valida que se ingresen los argumentos correctos"""
-    if len(sys.argv) != 5:
+    if len(sys.argv) != 2:
         print("Error: Debe ingresar 4 argumentos")
         print("Uso: python conversiones.py [sol] [peso_arg] [dolar] [monto_clp]")
         sys.exit(1)
 
 def convertir_moneda(monto, tasas):
-    """Realiza las conversiones de moneda"""
     conversiones = {
         "Soles": monto * tasas["sol"],
         "Pesos Argentinos": monto * tasas["peso_arg"],
@@ -44,3 +56,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+'''
